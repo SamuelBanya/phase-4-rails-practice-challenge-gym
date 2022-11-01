@@ -1,0 +1,27 @@
+* Notes
+<2022-10-31 Mon 19:23>: I used the following commands to set this lab up:
+#+begin_src bash
+bundle install
+rails s
+#+end_src
+
+I then generated the models with the following commands:
+#+begin_src bash
+samuelbanya@Samuels-MBP ~/hub/Development/code/phase-4/phase-4-rails-practice-challenge-gym $ rails g model gym --no-test-framework
+Running via Spring preloader in process 9698
+      invoke  active_record
+      create    db/migrate/20221101002433_create_gyms.rb
+      create    app/models/gym.rb
+samuelbanya@Samuels-MBP ~/hub/Development/code/phase-4/phase-4-rails-practice-challenge-gym $ rails g model client --no-test-framework
+Running via Spring preloader in process 9710
+      invoke  active_record
+      create    db/migrate/20221101002439_create_clients.rb
+      create    app/models/client.rb
+samuelbanya@Samuels-MBP ~/hub/Development/code/phase-4/phase-4-rails-practice-challenge-gym $ rails g model membership --no-test-framework
+Running via Spring preloader in process 9721
+      invoke  active_record
+      create    db/migrate/20221101002446_create_memberships.rb
+      create    app/models/membership.rb
+#+end_src
+
+<2022-10-31 Mon 19:25>: No tests or solution branch? --> No buy-in from me for now, will work on later.
